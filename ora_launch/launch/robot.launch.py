@@ -223,7 +223,7 @@ def generate_launch_description():
     parameters=[
       {
         'required_topics': [
-          '/imu',
+          '/esp/imu',
           '/diff_cont/odom',
           '/gnss/fix'
         ]
