@@ -24,3 +24,11 @@ diff_cont:
 
     position_feedback: false
     open_loop: false
+
+joint_broad:
+  ros__parameters:
+    extra_joints:
+      - left_front_caster_joint
+      - right_front_caster_joint
+      - left_back_caster_joint
+      - right_back_caster_joint
